@@ -6,6 +6,7 @@ import url from "node:url";
 export const config = {
   output: "export",
   reactStrictMode: true,
+  basePath: '/appliedenergistics.github.io',
   images: {
     unoptimized: true,
   },
