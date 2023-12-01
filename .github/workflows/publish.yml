@@ -2,8 +2,6 @@ name: Next.js Publish
 
 on:
   # Run every day at 4am to update javadoc and API
-  schedule:
-    - cron: "0 4 * * *"
   push:
     branches:
       - main
